@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_dropdown_item_1line, STATES);
         AutoCompleteTextView textView = (AutoCompleteTextView)
-                findViewById(R.id.country);
+                findViewById(R.id.states);
         textView.setAdapter(adapter);
     }
 
